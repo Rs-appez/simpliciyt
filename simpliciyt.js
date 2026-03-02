@@ -15,3 +15,4 @@ if (document.readyState === "loading") {
 
 const observer = new MutationObserver(remove_rich_sections);
 observer.observe(document.body, { childList: true, subtree: true });
+// test
