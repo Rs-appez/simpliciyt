@@ -1,7 +1,5 @@
 function remove_rich_sections() {
-    const rich_sections = document.getElementsByTagName(
-        "ytd-rich-section-renderer",
-    );
+    const rich_sections = document.querySelectorAll("ytd-rich-section-renderer");
     rich_sections.forEach((section) => {
         section.remove();
     });
